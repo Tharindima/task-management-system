@@ -158,15 +158,3 @@ From project root:
 ```powershell
 .\mvnw.cmd test
 ```
-
-## Notes for GitHub upload
-
-- Root `.gitignore` excludes backend build output (`target/`)
-- `frontend/.gitignore` excludes `node_modules/` and `dist/`
-- Do not commit credentials
-
-## Next improvements (optional)
-
-- Add persistent database profile (PostgreSQL)
-- Add pagination/filtering on `/tasks`
-- Add more frontend tests
